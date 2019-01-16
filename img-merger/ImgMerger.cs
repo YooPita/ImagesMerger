@@ -98,11 +98,11 @@ public class ImgMerger
                 {
                     Console.WriteLine("Merge Bitmaps Exception: " + exception.Message);
                 }
-                if (del)
+                /*if (del)
                 {
                     foreach (var filepath in Directory.EnumerateFiles(folder, "*.png"))
                     {
-                        if (File.Exists(filepath.))
+                        if (File.Exists(filepath.Length))
                         {
                             try
                             {
@@ -114,7 +114,7 @@ public class ImgMerger
                             }
                         }
                     }
-                }
+                }*/
             }
         }
     }
